@@ -1,0 +1,19 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/home
+    title="Magic Marble Steakhouse"
+    bodyClass="page-home"
+}}
+
+{{#*inline "nav-block"}}
+    {{> global/nav
+        
+    }}
+{{/inline}}
+
+{{#*inline "intro-block"}}
+    {{> intro
+    }}
+{{/inline}}
+
+{{/layouts/home}}
