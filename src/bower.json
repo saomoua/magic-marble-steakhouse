@@ -1,0 +1,18 @@
+{
+    "name": "magic-marble-steakhouse",
+    "description": "Magic Marble Steakhouse",
+    "authors": [
+        'Sao Moua'
+    ],
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "breakpoint-sass": "^2.6.1",
+        "normalize-css": "^4.1.1",
+        "susy": "^2.2.12"
+    }
+}
