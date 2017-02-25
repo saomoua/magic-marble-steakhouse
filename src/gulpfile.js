@@ -19,7 +19,7 @@ var
     notify = require('gulp-notify'),
     //pixrem = require('gulp-pixrem'),
     plumber = require('gulp-plumber'),
-    //put = require('gulp-put'),
+    put = require('gulp-put'),
     reload = browserSync.reload,
     rename = require('gulp-rename'),
     //replace = require('gulp-replace'),
@@ -59,11 +59,12 @@ var paths = {
     },
     copy: {
         files: [
-            'css/*.css',
             'images/*.{png,jpg,jpeg,gif,svg}',
-            'js/scripts.js',
+            'css/*.css',
+            'js/*.js',
+            '*.html'
         ],
-        dir: 'dist/'
+        dir: '../dist/'
     }
 }
 
@@ -145,8 +146,8 @@ gulp.task('copyToDist', function () {
         .pipe(plumber({
             errorHandler: notify.onError('Error: <%= error.message %>')
         }))
-        //.pipe(put(paths.copy.dist))
-        .pipe(gulp.dest(paths.copy.dir))
+        .pipe(put(paths.copy.dir))
+        //.pipe(gulp.dest(paths.copy.dir))
 });
 
 
@@ -168,6 +169,12 @@ gulp.task('connectSync', ['connect'], function () {
     });
 
     gulp.watch(paths.input.handlebars).on('change', function () {
+        browserSync.reload();
+    });
+    gulp.watch(paths.input.sass).on('change', function () {
+        browserSync.reload();
+    });
+    gulp.watch(paths.input.js).on('change', function () {
         browserSync.reload();
     });
     gulp.watch(paths.input.images).on('change', function () {
