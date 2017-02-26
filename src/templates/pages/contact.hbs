@@ -1,0 +1,18 @@
+{{!-- pages/contact.hbs --}}
+
+{{#> layouts/contact
+    title="Contact Us"
+    bodyClass="page-menu"
+}}
+
+{{#*inline "nav-block"}}
+{{> global/nav
+        logo-link="index.html"
+    }}
+{{/inline}}
+
+{{#*inline "intro-contact-block"}}
+{{> intro-contact}}
+{{/inline}}
+
+{{/layouts/contact}}
