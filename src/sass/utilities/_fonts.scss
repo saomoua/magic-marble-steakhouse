@@ -16,4 +16,5 @@ $base-line-height: 1.5;
 @mixin font-headline($family: $font-headline, $weight: 700) {
     font-family: $family;
     font-weight: $weight;
+    line-height: 1.2;
 }
