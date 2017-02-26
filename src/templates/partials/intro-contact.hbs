@@ -1,21 +1,22 @@
 <div class="col-6-first">
     <div class="container">
-        <h1>Contact Us</h1>
-        <h2>We would love to hear from you.</h2>
-        <p>Tell us how we are doing -- call, email or message us through our social media channels below.</p>
-        <p>
-            <a href="#">123 Main St
-                <br>Saint Paul, MN 55105</a>
-            <br> (651) 123-4567
-        </p>
-        
-        {{#> contact-form-block}}
-        {{/contact-form-block}}
+       <section class="intro">
+            <h1>Contact Us</h1>
+            <h2>We would love to hear from you.</h2>
+            <p>Tell us how we are doing -- call, email or message us through our social media channels below.</p>
+           
+            {{> includes/address }}
+
+            {{#> contact-form-block}}
+            {{/contact-form-block}}
+        </section>
     </div>
 </div>
 <div class="col-6-last">
     <div class="container">
-        {{#> testimonies-block}}
-        {{/testimonies-block}}
+       <section class="testimonies">
+            {{#> testimonies-block}}
+            {{/testimonies-block}}
+        </section>
     </div>
 </div>
