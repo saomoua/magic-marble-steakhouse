@@ -29,6 +29,10 @@ a {
   color: #662602;
 }
 
+a:hover {
+  color: #900;
+}
+
 h1,h2,h3 {
   font-family: "Averia Libre", Georgia, "Times New Roman", serif;
   font-weight: 700;
@@ -87,11 +91,11 @@ p {
 .ad img {
   display: block;
   margin: auto;
-  max-width: 100%;
 }
 
 .ad a {
   display: block;
+  overflow: hidden;
   text-decoration: none;
 }
 
@@ -117,6 +121,7 @@ p {
 
 .ad-order .ad-headline {
   color: #fff;
+  margin: 0;
 }
 
 .button {
@@ -413,7 +418,9 @@ p {
 
   .ad-headline {
     clear: none;
-    padding: 35px 20px;
+    float: left;
+    padding: 5px 10px;
+    width: 47%;
   }
 
   .ad-special img {

@@ -4,10 +4,10 @@
     img {
         display: block;
         margin: auto;
-        max-width: 100%;
     }
     a {
         display: block;
+        overflow: hidden;
         text-decoration: none;
     }
     &-headline {
@@ -17,7 +17,9 @@
         padding: 20px;
         @include breakpoint($large) {
             clear: none;
-            padding: 35px 20px;
+            float: left;
+            padding: 5px 10px;
+            width: 47%;
         }
     }
     &-special {
@@ -36,6 +38,7 @@
         background-color: $color-charcoal;
         .ad-headline {
             color: $color-white;
+            margin: 0;
         }
         img {
             @include breakpoint($large) {
