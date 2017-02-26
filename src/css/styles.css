@@ -163,7 +163,7 @@ p {
   overflow: hidden;
 }
 
-.form label,.form input {
+.form label,.form input,.form textarea {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -176,6 +176,13 @@ p {
   color: #333;
 }
 
+.form input[type="text"],.form input[type="email"],.form textarea {
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 8px;
+  width: 100%;
+}
+
 .form-signup {
   position: relative;
 }
@@ -184,10 +191,23 @@ p {
   color: #fff;
 }
 
-.form-signup #email {
-  background-color: #fff;
-  padding: 8px;
-  width: 100%;
+.form-contact {
+  margin-top: 30px;
+}
+
+.form .button {
+  float: left;
+}
+
+.form-cancel {
+  float: left;
+  margin: 10px 20px;
+  width: auto;
+}
+
+.form .form-group {
+  display: block;
+  overflow: hidden;
 }
 
 .header {

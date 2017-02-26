@@ -1,7 +1,7 @@
 .form {
     display: block;
     overflow: hidden;
-    label, input {
+    label, input, textarea {
         @include font-body;
         @include font-body-size;
         display: block;
@@ -10,15 +10,32 @@
     label {
         color: $color-charcoal;
     }
+    input[type="text"], input[type="email"], textarea {
+        background-color: $color-white;
+        border: 1px solid $color-gray;
+        padding: 8px;
+        width: 100%;
+    }
     &-signup {
         position: relative;
         label {
             color: $color-white;
         }
-        #email {
-            background-color: $color-white;
-            padding: 8px;
-            width: 100%;
-        }
+        #email {}
+    }
+    &-contact {
+        margin-top: 30px;
+    }
+    .button {
+        float: left;
+    }
+    &-cancel {
+        float: left;
+        margin: 10px 20px;
+        width: auto;
+    }
+    .form-group {
+        display: block;
+        overflow: hidden;
     }
 }
