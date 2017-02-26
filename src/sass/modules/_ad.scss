@@ -1,7 +1,9 @@
 .ad {
     overflow: hidden;
+    text-align: center;
     img {
         display: block;
+        margin: auto;
         max-width: 100%;
     }
     a {
@@ -25,7 +27,9 @@
             color: $color-maroon;
         }
         img {
-            float: left;
+            @include breakpoint($large) {
+                float: left;
+            }
         }
     }
     &-order {
@@ -34,7 +38,9 @@
             color: $color-white;
         }
         img {
-            float: right;
+            @include breakpoint($large) {
+                float: right;
+            }
         }
     }
 }
