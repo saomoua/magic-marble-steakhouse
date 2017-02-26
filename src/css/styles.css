@@ -11,7 +11,43 @@ Breakpoint Sass http://breakpoint-sass.com
 Repeat list only because I dont think Breakpoint Sass can use these variables
 These values have to be displayed in a list
 
-=======*/*,*::before,*::after {
+=======*/.ad {
+  overflow: hidden;
+}
+
+.ad img {
+  display: block;
+}
+
+.ad-special {
+  background-color: #ffe0cc;
+}
+
+.ad-special .ad-headline {
+  color: #662602;
+  line-height: 1;
+  margin: 0;
+  padding: 35px 20px;
+  height: 100%;
+}
+
+.ad-special img {
+  float: left;
+}
+
+.ad-order {
+  background-color: #333;
+}
+
+.ad-order .ad-headline {
+  color: #fff;
+}
+
+.ad-order img {
+  float: right;
+}
+
+*,*::before,*::after {
   box-sizing: border-box;
 }
 

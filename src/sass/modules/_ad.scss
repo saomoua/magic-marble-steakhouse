@@ -1,0 +1,28 @@
+.ad {
+    overflow: hidden;
+    img {
+        display: block;
+    }
+    &-special {
+        background-color: $color-cream;
+        .ad-headline {
+            color: $color-maroon;
+            line-height: 1;
+            margin: 0;
+            padding: 35px 20px;
+            height: 100%;
+        }
+        img {
+            float: left;
+        }
+    }
+    &-order {
+        background-color: $color-charcoal;
+        .ad-headline {
+            color: $color-white;
+        }
+        img {
+            float: right;
+        }
+    }
+}
