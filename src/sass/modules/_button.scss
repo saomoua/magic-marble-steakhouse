@@ -1,0 +1,9 @@
+.button {
+    @include font-headline;
+    @include font-headline-size;
+    background-color: $color-maroon;
+    color: $color-white;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
