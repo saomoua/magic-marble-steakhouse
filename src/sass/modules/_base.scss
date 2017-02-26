@@ -11,8 +11,13 @@ body {
     line-height: $base-line-height;
 }
 
+a {
+    color: $color-maroon;
+}
+
 h1, h2, h3 {
     @include font-headline;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -24,6 +29,11 @@ h2 {
 h3 {
     @include font-headline-size(20px, 1.2);
 }
+
+p {
+    margin-bottom: 20px;
+}
+
 .page-wrapper {
     margin: 0 auto;
     padding: 0;
