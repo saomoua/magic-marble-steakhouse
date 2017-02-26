@@ -6,7 +6,7 @@ $color-maroon: #662602;
 $color-red: #900;
 $color-cream: #ffe0cc;
 
-@mixin container($max-width: 85%) {
+@mixin container($max-width: 90%) {
     margin: auto;
     max-width: $max-width;
     overflow: hidden;
