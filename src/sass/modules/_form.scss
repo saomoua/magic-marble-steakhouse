@@ -1,7 +1,7 @@
 .form {
     display: block;
     overflow: hidden;
-    label, input, textarea {
+    label, input[type="text"], input[type="email"], textarea {
         @include font-body;
         @include font-body-size;
         display: block;

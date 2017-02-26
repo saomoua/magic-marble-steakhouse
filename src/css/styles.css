@@ -163,7 +163,7 @@ p {
   overflow: hidden;
 }
 
-.form label,.form input,.form textarea {
+.form label,.form input[type="text"],.form input[type="email"],.form textarea {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -426,8 +426,6 @@ p {
 
   .button {
     padding: 10px 15px;
-    font-size: 24px;
-    line-height: 1.2;
   }
 
   .logo-link {
