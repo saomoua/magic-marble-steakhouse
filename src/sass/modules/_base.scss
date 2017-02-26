@@ -20,47 +20,102 @@ h1, h2, h3, h4 {
 }
 
 .col-1 {
-    @include span(1 of 12);
+    &-first {
+        @include span(1 of 12);
+    }
+    &-last {
+        @include span(last 1 of 12);
+    }
 }
 
 .col-2 {
-    @include span(2 of 12);
+    &-first {
+        @include span(2 of 12);
+    }
+    &-last {
+        @include span(last 2 of 12);
+    }
 }
 
 .col-3 {
-    @include span(3 of 12);
+    &-first {
+        @include span(3 of 12);
+    }
+    &-last {
+        @include span(last 3 of 12);
+    }
 }
 
 .col-4 {
-    @include span(4 of 12);
+    &-first {
+        @include span(4 of 12);
+    }
+    &-last {
+        @include span(last 4 of 12);
+    }
 }
 
 .col-5 {
-    @include span(5 of 12);
+    &-first {
+        @include span(5 of 12);
+    }
+    &-last {
+        @include span(last 5 of 12);
+    }
 }
 
 .col-6 {
-    @include span(6 of 12);
+    &-first {
+        @include span(6 of 12);
+    }
+    &-last {
+        @include span(last 6 of 12);
+    }
 }
 
 .col-7 {
-    @include span(7 of 12);
+    &-first {
+        @include span(7 of 12);
+    }
+    &-last {
+        @include span(last 7 of 12);
+    }
 }
 
 .col-8 {
-    @include span(8 of 12);
+    &-first {
+        @include span(8 of 12);
+    }
+    &-last {
+        @include span(last 8 of 12);
+    }
 }
 
 .col-9 {
-    @include span(9 of 12);
+    &-first {
+        @include span(9 of 12);
+    }
+    &-last {
+        @include span(last 9 of 12);
+    }
 }
 
 .col-10 {
-    @include span(10 of 12);
+    &-first {
+        @include span(10 of 12);
+    }
+    &-last {
+        @include span(last 10 of 12);
+    }
 }
 
 .col-11 {
-    @include span(11 of 12);
+    &-first {
+        @include span(11 of 12);
+    }
+    &-last {
+        @include span(last 11 of 12);
+    }
 }
 
 .col-12 {
