@@ -16,10 +16,17 @@ h1, h2, h3, h4 {
 
 .page-wrapper {
     margin: 0 auto;
-    width: 900px;
+    width: 100%;
+    @include breakpoint($large) {
+        width: 900px;
+    }
 }
 
 .main-contents {
     display: block;
     overflow: hidden;
+}
+
+.container {
+    @include container;
 }
