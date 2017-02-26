@@ -2,15 +2,28 @@
     overflow: hidden;
     img {
         display: block;
+        max-width: 100%;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    &-headline {
+        clear: both;
+        height: 100%;
+        line-height: 1;
+        margin: 0;
+        padding: 20px;
+        @include breakpoint($large) {
+            clear: none;
+            padding: 35px 20px;
+        }
     }
     &-special {
         background-color: $color-cream;
+        margin-bottom: 20px;
         .ad-headline {
             color: $color-maroon;
-            line-height: 1;
-            margin: 0;
-            padding: 35px 20px;
-            height: 100%;
         }
         img {
             float: left;
