@@ -169,6 +169,33 @@ p {
   overflow: hidden;
 }
 
+.form label,.form input {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form label {
+  color: #333;
+}
+
+.form-signup {
+  position: relative;
+}
+
+.form-signup label {
+  color: #fff;
+}
+
+.form-signup #email {
+  background-color: #fff;
+  padding: 8px;
+  width: 100%;
+}
+
 .header {
   display: block;
   height: 100%;

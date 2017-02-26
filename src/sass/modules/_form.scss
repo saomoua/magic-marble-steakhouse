@@ -1,7 +1,24 @@
 .form {
     display: block;
     overflow: hidden;
-    &-rewards {
-        
+    label, input {
+        @include font-body;
+        @include font-body-size;
+        display: block;
+        margin-bottom: 10px;
+    }
+    label {
+        color: $color-charcoal;
+    }
+    &-signup {
+        position: relative;
+        label {
+            color: $color-white;
+        }
+        #email {
+            background-color: $color-white;
+            padding: 8px;
+            width: 100%;
+        }
     }
 }
