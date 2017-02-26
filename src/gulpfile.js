@@ -184,7 +184,7 @@ gulp.task('connectSync', ['connect'], function () {
 
 // run 'default' task before running watch
 gulp.task('watch', function () {
-    gulp.watch(paths.input.handlebarsPages, ['html']);
+    gulp.watch(paths.input.handlebars, ['html']);
     gulp.watch(paths.input.sass, ['styles']);
     gulp.watch(paths.input.js, ['scripts']);
     gulp.watch(paths.input.images, ['images']);
