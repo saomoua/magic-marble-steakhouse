@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Roboto:400,700');
+
+$font-fallback-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-fallback-headline: Georgia, 'Times New Roman', serif;
+$font-body: 'Roboto', $font-fallback-body;
+$font-headline: 'Averia+Libre', $font-fallback-headline;
+
+@mixin font-body($family: $font-body, $weight: 400) {
+    font-family: $family;
+    font-weight: $weight;
+}
+
+@mixin font-headline($family: $font-body-headline, $weight: 700) {
+    font-family: $family;
+    font-weight: $weight;
+}
