@@ -81,10 +81,12 @@ p {
 
 .ad {
   overflow: hidden;
+  text-align: center;
 }
 
 .ad img {
   display: block;
+  margin: auto;
   max-width: 100%;
 }
 
@@ -109,20 +111,12 @@ p {
   color: #662602;
 }
 
-.ad-special img {
-  float: left;
-}
-
 .ad-order {
   background-color: #333;
 }
 
 .ad-order .ad-headline {
   color: #fff;
-}
-
-.ad-order img {
-  float: right;
 }
 
 .button {
@@ -135,7 +129,7 @@ p {
   border: 0;
   border-radius: 6px;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 
@@ -152,7 +146,7 @@ p {
 }
 
 .footer-links {
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 .footer-links a {
@@ -206,7 +200,6 @@ p {
 
 .logo {
   height: 80px;
-  width: 250px;
 }
 
 .logo-link {
@@ -220,7 +213,6 @@ p {
 
 .site-nav {
   display: block;
-  float: right;
   list-style: none;
   overflow: hidden;
   margin: 0;
@@ -398,7 +390,16 @@ p {
     padding: 35px 20px;
   }
 
+  .ad-special img {
+    float: left;
+  }
+
+  .ad-order img {
+    float: right;
+  }
+
   .button {
+    padding: 10px 15px;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -408,6 +409,7 @@ p {
   }
 
   .site-nav {
+    float: right;
     margin: 30px 0 0 0;
   }
 
