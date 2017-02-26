@@ -4,17 +4,25 @@ $font-fallback-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-fallback-headline: Georgia, 'Times New Roman', serif;
 $font-body: 'Roboto', $font-fallback-body;
 $font-headline: 'Averia Libre', $font-fallback-headline;
-
 $base-font-size: 16px;
 $base-line-height: 1.5;
 
-@mixin font-body($family: $font-body, $weight: 400) {
+@mixin font-body($family: $font-body, $size: $base-font-size, $weight: 400) {
     font-family: $family;
     font-weight: $weight;
+}
+
+@mixin font-body-size($size: $base-font-size, $line-height: $base-line-height) {
+    font-size: $size;
+    line-height: $line-height;
 }
 
 @mixin font-headline($family: $font-headline, $weight: 700) {
     font-family: $family;
     font-weight: $weight;
-    line-height: 1.2;
+}
+
+@mixin font-headline-size($size: 24px, $line-height: 1.2) {
+    font-size: $size;
+    line-height: $line-height;
 }
