@@ -19,4 +19,11 @@ body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4 {
+  font-family: "Averia Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
 }

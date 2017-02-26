@@ -5,4 +5,11 @@
 body {
     @include font-body;
     background-color: $color-white;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+//#{headings()} {
+h1, h2, h3, h4 {
+    @include font-headline;
 }
