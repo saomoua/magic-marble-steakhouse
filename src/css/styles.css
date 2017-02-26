@@ -11,53 +11,7 @@ Breakpoint Sass http://breakpoint-sass.com
 Repeat list only because I dont think Breakpoint Sass can use these variables
 These values have to be displayed in a list
 
-=======*/.ad {
-  overflow: hidden;
-}
-
-.ad img {
-  display: block;
-  max-width: 100%;
-}
-
-.ad a {
-  display: block;
-  text-decoration: none;
-}
-
-.ad-headline {
-  clear: both;
-  height: 100%;
-  margin: 0;
-  padding: 20px;
-}
-
-.ad-special {
-  background-color: #ffe0cc;
-  margin-bottom: 20px;
-}
-
-.ad-special .ad-headline {
-  color: #662602;
-}
-
-.ad-special img {
-  float: left;
-}
-
-.ad-order {
-  background-color: #333;
-}
-
-.ad-order .ad-headline {
-  color: #fff;
-}
-
-.ad-order img {
-  float: right;
-}
-
-*,*::before,*::after {
+=======*/*,*::before,*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -118,6 +72,59 @@ p {
   overflow: hidden;
 }
 
+.col-12 {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ad {
+  overflow: hidden;
+}
+
+.ad img {
+  display: block;
+  max-width: 100%;
+}
+
+.ad a {
+  display: block;
+  text-decoration: none;
+}
+
+.ad-headline {
+  clear: both;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.ad-special {
+  background-color: #ffe0cc;
+  margin-bottom: 20px;
+}
+
+.ad-special .ad-headline {
+  color: #662602;
+}
+
+.ad-special img {
+  float: left;
+}
+
+.ad-order {
+  background-color: #333;
+}
+
+.ad-order .ad-headline {
+  color: #fff;
+}
+
+.ad-order img {
+  float: right;
+}
+
 .button {
   font-family: "Averia Libre", Georgia, "Times New Roman", serif;
   font-weight: 700;
@@ -155,6 +162,11 @@ p {
 
 .footer-links a:hover {
   color: #900;
+}
+
+.form {
+  display: block;
+  overflow: hidden;
 }
 
 .header {
@@ -217,39 +229,9 @@ p {
   width: 48px;
 }
 
-.col-12 {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 @media (min-width: 960px) {
-  .ad-headline {
-    clear: none;
-    padding: 35px 20px;
-  }
-
   .page-wrapper {
     width: 900px;
-  }
-
-  .button {
-    font-size: 24px;
-    line-height: 1.2;
-  }
-
-  .logo-link {
-    margin: 0;
-  }
-
-  .site-nav {
-    margin: 30px 0 0 0;
-  }
-
-  .site-nav li {
-    margin-right: 10px;
-    margin-top: 0;
   }
 
   .col-1-first {
@@ -382,5 +364,28 @@ p {
     width: 91.52542%;
     float: right;
     margin-right: 0;
+  }
+
+  .ad-headline {
+    clear: none;
+    padding: 35px 20px;
+  }
+
+  .button {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .logo-link {
+    margin: 0;
+  }
+
+  .site-nav {
+    margin: 30px 0 0 0;
+  }
+
+  .site-nav li {
+    margin-right: 10px;
+    margin-top: 0;
   }
 }
