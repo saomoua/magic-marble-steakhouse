@@ -28,7 +28,6 @@ These values have to be displayed in a list
 .ad-headline {
   clear: both;
   height: 100%;
-  line-height: 1;
   margin: 0;
   padding: 20px;
 }
@@ -60,6 +59,8 @@ These values have to be displayed in a list
 
 *,*::before,*::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -73,16 +74,19 @@ body {
 h1,h2,h3,h4 {
   font-family: "Averia Libre", Georgia, "Times New Roman", serif;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .page-wrapper {
   margin: 0 auto;
+  padding: 0;
   width: 100%;
 }
 
 .main-contents {
   display: block;
   overflow: hidden;
+  padding: 30px 0;
 }
 
 .container {
@@ -92,14 +96,22 @@ h1,h2,h3,h4 {
 }
 
 footer {
+  background-color: #333;
   clear: both;
+  color: #fff;
   overflow: hidden;
+  padding: 30px 0;
+}
+
+.social-media {
+  list-style: none;
 }
 
 .header {
   display: block;
   height: 100%;
   overflow: hidden;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -137,6 +149,7 @@ footer {
 .site-nav .site-nav-link {
   font-family: "Averia Libre", Georgia, "Times New Roman", serif;
   font-weight: 700;
+  line-height: 1.2;
   color: #fff;
   background-color: #662602;
   border-radius: 6px;
