@@ -118,12 +118,25 @@ p {
   overflow: hidden;
 }
 
-footer {
+.footer {
   background-color: #333;
   clear: both;
   color: #fff;
   overflow: hidden;
   padding: 30px 0;
+}
+
+.footer-links {
+  padding: 20px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #900;
 }
 
 .header {
