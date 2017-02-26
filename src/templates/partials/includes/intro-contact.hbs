@@ -1,12 +1,14 @@
 <div class="col-6-first">
     <div class="container">
-       <section class="intro">
+        <section class="intro">
             <h1>Contact Us</h1>
             <h2>We would love to hear from you.</h2>
             <p>Tell us how we are doing -- call, email or message us through our social media channels below.</p>
-           
-            {{> includes/address }}
 
+            {{> includes/address }}
+            
+            {{>includes/social-media}}
+            
             {{#> contact-form-block}}
             {{/contact-form-block}}
         </section>
@@ -14,7 +16,7 @@
 </div>
 <div class="col-6-last">
     <div class="container">
-       <section class="testimonies">
+        <section class="testimonies">
             {{#> testimonies-block}}
             {{/testimonies-block}}
         </section>
