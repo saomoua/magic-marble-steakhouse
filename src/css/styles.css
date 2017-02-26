@@ -33,6 +33,67 @@ h1,h2,h3,h4 {
   width: 900px;
 }
 
+.main-contents {
+  display: block;
+  overflow: hidden;
+}
+
+footer {
+  clear: both;
+  overflow: hidden;
+}
+
+.header {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo {
+  height: 80px;
+  width: 250px;
+}
+
+.logo-link {
+  display: block;
+}
+
+.nav-wrapper {
+  overflow: hidden;
+}
+
+.site-nav {
+  display: block;
+  float: right;
+  list-style: none;
+  overflow: hidden;
+  margin: 30px 0 0 0;
+  padding: 0;
+  width: auto;
+}
+
+.site-nav li {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.site-nav .site-nav-link {
+  font-family: "Averia Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #662602;
+  border-radius: 6px;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.site-nav .site-nav-link-active,.site-nav .site-nav-link:hover {
+  background-color: #900;
+}
+
 .col-1-first {
   width: 6.77966%;
   float: left;
@@ -170,30 +231,4 @@ h1,h2,h3,h4 {
   float: left;
   margin-left: 0;
   margin-right: 0;
-}
-
-.main-contents {
-  display: block;
-  overflow: hidden;
-}
-
-footer {
-  clear: both;
-  overflow: hidden;
-}
-
-.header {
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
-}
-
-.logo {
-  height: 80px;
-  width: 250px;
-}
-
-.logo-link {
-  display: block;
 }
