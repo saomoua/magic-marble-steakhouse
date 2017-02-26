@@ -108,14 +108,19 @@ h1,h2,h3,h4 {
 
 .main-contents {
   display: block;
+  overflow: hidden;
 }
 
 footer {
   clear: both;
+  overflow: hidden;
 }
 
 .header {
   display: block;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 .logo {

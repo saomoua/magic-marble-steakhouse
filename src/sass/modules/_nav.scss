@@ -1,5 +1,8 @@
 .header {
     display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
 .logo {
@@ -10,3 +13,7 @@
 .logo-link {
     display: block;
 }
+
+.nav-wrapper {}
+
+.site-nav {}
