@@ -66,11 +66,17 @@ h1,h2,h3,h4 {
 
 .page-wrapper {
   margin: 0 auto;
-  width: 900px;
+  width: 100%;
 }
 
 .main-contents {
   display: block;
+  overflow: hidden;
+}
+
+.container {
+  margin: auto;
+  max-width: 85%;
   overflow: hidden;
 }
 
@@ -130,141 +136,147 @@ footer {
   background-color: #900;
 }
 
-.col-1-first {
-  width: 6.77966%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-1-last {
-  width: 6.77966%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-2-first {
-  width: 15.25424%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-2-last {
-  width: 15.25424%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-3-first {
-  width: 23.72881%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-3-last {
-  width: 23.72881%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-4-first {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-4-last {
-  width: 32.20339%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-5-first {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-5-last {
-  width: 40.67797%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-6-first {
-  width: 49.15254%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-6-last {
-  width: 49.15254%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-7-first {
-  width: 57.62712%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-7-last {
-  width: 57.62712%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-8-first {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-8-last {
-  width: 66.10169%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-9-first {
-  width: 74.57627%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-9-last {
-  width: 74.57627%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-10-first {
-  width: 83.05085%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-10-last {
-  width: 83.05085%;
-  float: right;
-  margin-right: 0;
-}
-
-.col-11-first {
-  width: 91.52542%;
-  float: left;
-  margin-right: 1.69492%;
-}
-
-.col-11-last {
-  width: 91.52542%;
-  float: right;
-  margin-right: 0;
-}
-
 .col-12 {
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
+}
+
+@media (min-width: 960px) {
+  .page-wrapper {
+    width: 900px;
+  }
+
+  .col-1-first {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-1-last {
+    width: 6.77966%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-2-first {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-2-last {
+    width: 15.25424%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-3-first {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-3-last {
+    width: 23.72881%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-4-first {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-4-last {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-5-first {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-5-last {
+    width: 40.67797%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-6-first {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-6-last {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-7-first {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-7-last {
+    width: 57.62712%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-8-first {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-8-last {
+    width: 66.10169%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-9-first {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-9-last {
+    width: 74.57627%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-10-first {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-10-last {
+    width: 83.05085%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .col-11-first {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  .col-11-last {
+    width: 91.52542%;
+    float: right;
+    margin-right: 0;
+  }
 }
