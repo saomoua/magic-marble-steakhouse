@@ -1,0 +1,17 @@
+.social-media {
+    list-style: none;
+    overflow: hidden;
+    li {
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    img {
+        display: block;
+        height: 48px;
+        width: 48px;
+    }
+}
