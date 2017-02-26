@@ -6,9 +6,10 @@
     border: 0;
     border-radius: 6px;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 12px;
     text-decoration: none;
     @include breakpoint($large) {
+        padding: 10px 15px;
         @include font-headline-size;
     }
     &-active, &:hover {
