@@ -44,16 +44,4 @@
             margin-top: 0;
         }
     }
-    .site-nav-link {
-        @include font-headline;
-        color: $color-white;
-        background-color: $color-maroon;
-        border-radius: 6px;
-        display: block;
-        padding: 10px 15px;
-        text-decoration: none;
-        &-active, &:hover {
-            background-color: $color-red;
-        }
-    }
 }

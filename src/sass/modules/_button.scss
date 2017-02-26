@@ -1,9 +1,17 @@
 .button {
     @include font-headline;
-    @include font-headline-size;
+    @include font-headline-size(16px, 1.5);
     background-color: $color-maroon;
     color: $color-white;
     border: 0;
     border-radius: 6px;
+    display: block;
     padding: 10px 15px;
+    text-decoration: none;
+    @include breakpoint($large) {
+        @include font-headline-size;
+    }
+    &-active, &:hover {
+        background-color: $color-red;
+    }
 }

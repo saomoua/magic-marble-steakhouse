@@ -118,6 +118,24 @@ p {
   overflow: hidden;
 }
 
+.button {
+  font-family: "Averia Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #662602;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.button-active,.button:hover {
+  background-color: #900;
+}
+
 .footer {
   background-color: #333;
   clear: both;
@@ -178,21 +196,6 @@ p {
   margin-top: 5px;
 }
 
-.site-nav .site-nav-link {
-  font-family: "Averia Libre", Georgia, "Times New Roman", serif;
-  font-weight: 700;
-  color: #fff;
-  background-color: #662602;
-  border-radius: 6px;
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-}
-
-.site-nav .site-nav-link-active,.site-nav .site-nav-link:hover {
-  background-color: #900;
-}
-
 .social-media {
   list-style: none;
   overflow: hidden;
@@ -229,6 +232,11 @@ p {
 
   .page-wrapper {
     width: 900px;
+  }
+
+  .button {
+    font-size: 24px;
+    line-height: 1.2;
   }
 
   .logo-link {
