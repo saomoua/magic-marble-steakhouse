@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Roboto:400,700");/*======
+@import url("https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Roboto:400,400i,700");/*======
 Breakpoint Sass http://breakpoint-sass.com
 - Assume min-width (by default) if only a number
 - Set min-width/max-width if both values are numbers
@@ -192,7 +192,7 @@ p {
 }
 
 .form-contact {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .form .button {
@@ -266,6 +266,12 @@ p {
   display: block;
   height: 48px;
   width: 48px;
+}
+
+.testimonies .quote {
+  display: block;
+  font-style: italic;
+  padding-left: 20px;
 }
 
 @media (min-width: 960px) {
