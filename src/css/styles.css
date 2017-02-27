@@ -520,7 +520,7 @@ p {
 
   .form-contact input[type="text"],.form-contact input[type="email"],.form-contact textarea {
     float: right;
-    width: 290px;
+    width: 73%;
   }
 
   .form-contact .form-group-actions {
