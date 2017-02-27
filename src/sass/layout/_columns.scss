@@ -67,11 +67,13 @@
     &-first {
         @include breakpoint($large) {
             @include span(6 of 12);
+            max-width: 380px;
         }
     }
     &-last {
         @include breakpoint($large) {
             @include span(last 6 of 12);
+            max-width: 380px;
         }
     }
 }
