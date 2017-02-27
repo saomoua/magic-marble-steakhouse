@@ -1,0 +1,22 @@
+{{!-- pages/menu.hbs --}}
+
+{{#> layouts/menu
+    title="Menu"
+    bodyClass="page-menu"
+}}
+
+{{#*inline "nav-block"}}
+    {{> global/nav}}
+{{/inline}}
+
+{{#*inline "steak-block"}}
+    {{> includes/menu-steak}}
+{{/inline}}
+
+{{#*inline "social-media-block"}}
+    {{> includes/social-media
+        social-icon-color="white"
+    }}
+{{/inline}}
+
+{{/layouts/menu}}
