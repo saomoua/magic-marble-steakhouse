@@ -2,25 +2,11 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="col-50">
-            <h1>Sign Up For Offers And Rewards</h1>
-            
-            {{>includes/form-signup}}
-            
-            <p class="copyright">Copyright &copy; 2017 | Magic Marble Steakhouse</p>
+        <div class="col-6-first">
+            {{> global/footer-left }}
         </div>
-        <div class="col-50">
-            <h1>Connect With Us</h1>
-            
-            {{> includes/social-media}}
-            
-            <p class="footer-links">
-                <a href="index.html">Home</a> |
-                <a href="menu.html">Menu</a> |
-                <a href="doneness.html">Doneness</a> |
-                <a href="about.html">About</a> |
-                <a href="contact.html">Contact</a>
-            </p>
+        <div class="col-6-last">
+            {{> global/footer-right }}
         </div>
     </div>
 </footer>
