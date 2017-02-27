@@ -43,6 +43,24 @@
     }
     &-contact {
         margin: 30px 0;
+        label {
+            @include breakpoint($large) {
+                float: left;
+                padding: 10px 0;
+                width: 100px;
+            }
+        }
+        input[type="text"], input[type="email"], textarea {
+            @include breakpoint($large) {
+                float: right;
+                width: 290px;
+            }
+        }
+        .form-group-actions {
+            @include breakpoint($large) {
+                padding-left: 108px
+            }
+        }
     }
     .button {
         float: left;

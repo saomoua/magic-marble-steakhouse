@@ -472,6 +472,21 @@ p {
     width: 160px;
   }
 
+  .form-contact label {
+    float: left;
+    padding: 10px 0;
+    width: 100px;
+  }
+
+  .form-contact input[type="text"],.form-contact input[type="email"],.form-contact textarea {
+    float: right;
+    width: 290px;
+  }
+
+  .form-contact .form-group-actions {
+    padding-left: 108px;
+  }
+
   .logo-link {
     margin: 0;
   }
