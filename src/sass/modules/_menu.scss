@@ -1,0 +1,22 @@
+.menu {
+    display: block;
+    overflow: hidden;
+    &-item-with-photo {
+        display: block;
+        margin-bottom: 30px;
+    }
+    &-name {
+        float: left;
+    }
+    &-price {
+        float: right;
+    }
+    h3 {
+        display: block;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    p {
+        clear: both;
+    }
+}

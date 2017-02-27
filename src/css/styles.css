@@ -225,6 +225,34 @@ p {
   overflow: hidden;
 }
 
+.menu {
+  display: block;
+  overflow: hidden;
+}
+
+.menu-item-with-photo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.menu-name {
+  float: left;
+}
+
+.menu-price {
+  float: right;
+}
+
+.menu h3 {
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.menu p {
+  clear: both;
+}
+
 .header {
   display: block;
   height: 100%;
@@ -363,12 +391,14 @@ p {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
+    max-width: 380px;
   }
 
   .col-6-last {
     width: 49.15254%;
     float: right;
     margin-right: 0;
+    max-width: 380px;
   }
 
   .col-7-first {
