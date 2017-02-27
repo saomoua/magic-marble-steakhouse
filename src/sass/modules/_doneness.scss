@@ -1,0 +1,9 @@
+.beef-doneness {
+    display: block;
+    overflow: hidden;
+    &-degree {
+        height: 150px;
+        text-align: center;
+        vertical-align: text-bottom;
+    }
+}
