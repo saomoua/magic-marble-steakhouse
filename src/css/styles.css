@@ -140,6 +140,7 @@ p {
 
 .button-active,.button:hover {
   background-color: #900;
+  color: #fff;
 }
 
 .footer {
