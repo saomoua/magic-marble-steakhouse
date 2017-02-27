@@ -150,16 +150,8 @@ p {
   padding: 30px 0;
 }
 
-.footer-right {
-  text-align: right;
-}
-
 .footer .copyright {
   font-size: 14px;
-}
-
-.footer .social-media {
-  float: right;
 }
 
 .footer-links {
@@ -207,6 +199,7 @@ p {
 
 .form-signup label {
   color: #fff;
+  font-size: 14px;
 }
 
 .form-contact {
@@ -451,6 +444,31 @@ p {
 
   .button {
     padding: 10px 15px;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer .social-media {
+    float: right;
+  }
+
+  .form-signup .form-group {
+    float: left;
+    margin-right: 10px;
+    width: 275px;
+  }
+
+  .form-signup label {
+    float: left;
+    padding: 10px 0;
+    width: 100px;
+  }
+
+  .form-signup #signup-email {
+    float: right;
+    width: 160px;
   }
 
   .logo-link {

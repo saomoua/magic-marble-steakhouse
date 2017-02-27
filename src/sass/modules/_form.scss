@@ -18,10 +18,28 @@
     }
     &-signup {
         position: relative;
+        .form-group {
+            @include breakpoint($large) {
+                float: left;
+                margin-right: 10px;
+                width: 275px;
+            }
+        }
         label {
             color: $color-white;
+            font-size: 14px;
+            @include breakpoint($large) {
+                float: left;
+                padding: 10px 0;
+                width: 100px;
+            }
         }
-        #email {}
+        #signup-email {
+            @include breakpoint($large) {
+                float: right;
+                width: 160px;
+            }
+        }
     }
     &-contact {
         margin: 30px 0;
