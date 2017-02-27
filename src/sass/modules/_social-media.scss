@@ -1,9 +1,13 @@
 .social-media {
     list-style: none;
     overflow: hidden;
+    width: auto;
     li {
         float: left;
         margin: 0 20px 0 0;
+        &.youtube {
+            margin-right: 0;
+        }
     }
     a {
         display: block;
@@ -13,5 +17,9 @@
         display: block;
         height: 48px;
         width: 48px;
+        @include breakpoint($large) {
+            height: 32px;
+            width: 32px;
+        }
     }
 }
