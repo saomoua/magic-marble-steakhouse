@@ -6,13 +6,17 @@
     padding: 30px 0;
     &-left {}
     &-right {
-        text-align: right;
+        @include breakpoint($large) {
+            text-align: right;
+        }
     }
     .copyright {
         font-size: 14px;
     }
     .social-media {
-        float: right;
+        @include breakpoint($large) {
+            float: right;
+        }
     }
     &-links {
         clear: both;
