@@ -36,22 +36,25 @@ a:hover {
 h1,h2,h3 {
   font-family: "Averia Libre", Georgia, "Times New Roman", serif;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 
 h1 {
   font-size: 30px;
   line-height: 1.2;
+  border-bottom: 2px solid #999;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 24px;
   line-height: 1.2;
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 10px;
 }
 
 p {
