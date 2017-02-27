@@ -1,0 +1,16 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/about
+    title="About Us"
+    bodyClass="page-about"
+}}
+
+{{#*inline "nav-block"}}
+    {{> global/nav}}
+{{/inline}}
+
+{{#*inline "intro-about-block"}}
+    {{> includes/intro-about}}
+{{/inline}}
+
+{{/layouts/about}}
