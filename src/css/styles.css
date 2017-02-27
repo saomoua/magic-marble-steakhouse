@@ -243,6 +243,14 @@ p {
   float: right;
 }
 
+.menu-fineprint {
+  font-size: 14px;
+}
+
+.menu h2 {
+  border-bottom: 1px solid #999;
+}
+
 .menu h3 {
   display: block;
   margin-bottom: 10px;
@@ -250,6 +258,10 @@ p {
 }
 
 .menu p {
+  clear: both;
+}
+
+.steaks,.beverages,.appetizers,.sides,.desserts {
   clear: both;
 }
 

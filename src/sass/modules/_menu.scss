@@ -11,6 +11,12 @@
     &-price {
         float: right;
     }
+    &-fineprint {
+        font-size: 14px;
+    }
+    h2 {
+        border-bottom: 1px solid $color-gray;
+    }
     h3 {
         display: block;
         margin-bottom: 10px;
@@ -19,4 +25,7 @@
     p {
         clear: both;
     }
+}
+.steaks, .beverages, .appetizers, .sides, .desserts {
+    clear: both;
 }
