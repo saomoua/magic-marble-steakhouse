@@ -464,12 +464,19 @@ p {
   .ad-headline {
     clear: none;
     float: left;
-    padding: 5px 10px;
-    width: 47%;
+    padding: 8px 10px;
+  }
+
+  .ad-special .ad-headline {
+    width: 44%;
   }
 
   .ad-special img {
     float: left;
+  }
+
+  .ad-order .ad-headline {
+    width: 52%;
   }
 
   .ad-order img {

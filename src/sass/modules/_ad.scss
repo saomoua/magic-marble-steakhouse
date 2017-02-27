@@ -18,8 +18,7 @@
         @include breakpoint($large) {
             clear: none;
             float: left;
-            padding: 5px 10px;
-            width: 47%;
+            padding: 8px 10px;
         }
     }
     &-special {
@@ -27,6 +26,9 @@
         margin-bottom: 20px;
         .ad-headline {
             color: $color-maroon;
+            @include breakpoint($large) {
+                width: 44%;
+            }
         }
         img {
             @include breakpoint($large) {
@@ -39,6 +41,9 @@
         .ad-headline {
             color: $color-white;
             margin: 0;
+            @include breakpoint($large) {
+                width: 52%;
+            }
         }
         img {
             @include breakpoint($large) {
