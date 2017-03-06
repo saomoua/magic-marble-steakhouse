@@ -2,17 +2,19 @@
     "name": "magic-marble-steakhouse",
     "description": "Magic Marble Steakhouse",
     "authors": [
-        'Sao Moua'
+        "Sao Moua"
     ],
+    "homepage": "https://github.com/saomoua/magic-marble-steakhouse",
     "private": true,
     "ignore": [
         "**/.*",
         "test",
         "tests"
     ],
-    "devDependencies": {
+    "dependencies": {
         "breakpoint-sass": "^2.6.1",
-        "normalize-css": "^4.1.1",
+        "jquery": "~1.11.x",
+        "sassy-maps": "<1.0.0",
         "susy": "^2.2.12"
     }
 }
