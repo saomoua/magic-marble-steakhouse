@@ -13,7 +13,13 @@ $("#form-contact").validate({
             minlength: 3
         }
     },
+
     submitHandler: function (form) {
         form.submit();
+    },
+    success: function () {
+        $('#form-contact').fadeOut();
+        $('#contact-success').fadeIn();
     }
+
 });
