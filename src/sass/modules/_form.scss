@@ -5,16 +5,25 @@
         @include font-body;
         @include font-body-size;
         display: block;
-        margin-bottom: 10px;
     }
     label {
         color: $color-charcoal;
+        &.error {
+            color: $color-red;
+            width: 100%;
+            @include breakpoint($large) {
+                padding: 0 0 0 100px;
+            }
+        }
     }
     input[type="text"], input[type="email"], textarea {
         background-color: $color-white;
         border: 1px solid $color-gray;
         padding: 8px;
         width: 100%;
+    }
+    input.error, textarea.error {
+        border: 1px solid $color-red;
     }
     &-signup {
         position: relative;
@@ -58,7 +67,7 @@
         }
         .form-group-actions {
             @include breakpoint($large) {
-                padding-left: 108px
+                padding-left: 105px
             }
         }
     }
@@ -73,5 +82,6 @@
     .form-group {
         display: block;
         overflow: hidden;
+        margin-bottom: 20px;
     }
 }

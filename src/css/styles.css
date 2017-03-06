@@ -199,11 +199,15 @@ p {
   font-size: 16px;
   line-height: 1.5;
   display: block;
-  margin-bottom: 10px;
 }
 
 .form label {
   color: #333;
+}
+
+.form label.error {
+  color: #900;
+  width: 100%;
 }
 
 .form input[type="text"],.form input[type="email"],.form textarea {
@@ -211,6 +215,10 @@ p {
   border: 1px solid #999;
   padding: 8px;
   width: 100%;
+}
+
+.form input.error,.form textarea.error {
+  border: 1px solid #900;
 }
 
 .form-signup {
@@ -239,6 +247,7 @@ p {
 .form .form-group {
   display: block;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .menu {
@@ -523,6 +532,10 @@ p {
     float: right;
   }
 
+  .form label.error {
+    padding: 0 0 0 100px;
+  }
+
   .form-signup .form-group {
     float: left;
     margin-right: 10px;
@@ -552,7 +565,7 @@ p {
   }
 
   .form-contact .form-group-actions {
-    padding-left: 108px;
+    padding-left: 105px;
   }
 
   .logo-link {
