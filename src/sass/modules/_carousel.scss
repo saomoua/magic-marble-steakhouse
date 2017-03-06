@@ -2,58 +2,61 @@
 
 .carousel {
     height: 1%;
-    margin: 30px 0 0;
+    margin: 0 0 20px;
     overflow: hidden;
     position: relative;
-    padding: 0 50px 10px;
+    padding: 0;
+    h2 {
+        text-align: center;
+    }
     .viewport {
-        height: 125px;
+        height: 150px;
         overflow: hidden;
+        margin: auto;
         position: relative;
+        width: 80%;
     }
     .buttons {
-        background: #C01313;
-        border-radius: 35px;
+        @include font-headline;
+        @include font-headline-size(32px, 0.8);
+        background: $color-maroon;
+        border-radius: 50%;
+        color: $color-white;
         display: block;
+        height: 32px;
         position: absolute;
-        top: 50%;
-        left: 0;
-        width: 35px;
-        height: 35px;
-        color: #fff;
-        font-weight: bold;
         text-align: center;
-        line-height: 35px;
         text-decoration: none;
-        font-size: 22px;
+        top: 40%;
+        width: 32px;
+    }
+    .prev {
+        left: 0;
     }
     .next {
         right: 0;
-        left: auto;
-        top: 50%;
     }
     .buttons:hover {
-        color: #C01313;
-        background: #fff;
+        background: $color-red;
+        color: $color-white;
     }
     .disable {
         visibility: hidden;
     }
     .overview {
         list-style: none;
+        left: 0;
+        margin: 0;
         position: absolute;
         padding: 0;
-        margin: 0;
-        width: 240px;
-        left: 0;
         top: 0;
+        width: 305px;
         li {
             float: left;
-            margin: 0 20px 0 0;
-            padding: 1px;
-            height: 121px;
-            border: 1px solid #dcdcdc;
-            width: 236px;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 305px;
         }
     }
 }
