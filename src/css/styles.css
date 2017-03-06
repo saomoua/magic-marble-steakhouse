@@ -103,11 +103,11 @@ p {
 }
 
 .ad-valentine {
-  background-color: #ffe0cc;
+  background-color: #900;
 }
 
 .ad-valentine .ad-headline {
-  color: #662602;
+  color: #fff;
 }
 
 .ad-stpatrick {
@@ -119,11 +119,11 @@ p {
 }
 
 .ad-easter {
-  background-color: #900;
+  background-color: #ffe0cc;
 }
 
 .ad-easter .ad-headline {
-  color: #fff;
+  color: #662602;
 }
 
 .ad-order {
