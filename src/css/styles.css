@@ -250,6 +250,12 @@ p {
   margin-bottom: 20px;
 }
 
+#contact-success {
+  background: #ffe0cc;
+  display: none;
+  padding: 20px;
+}
+
 .menu {
   display: block;
   overflow: hidden;
