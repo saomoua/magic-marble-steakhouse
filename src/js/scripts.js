@@ -10352,15 +10352,15 @@ return jQuery;
 
 $("#form-contact").validate({
     rules: {
-        name: {
+        contactName: {
             required: true,
             minlength: 3
         },
-        email: {
+        contactEmail: {
             required: true,
             email: true
         },
-        message: {
+        contactMessage: {
             required: true,
             minlength: 3
         }
