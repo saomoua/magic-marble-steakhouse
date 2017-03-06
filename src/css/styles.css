@@ -98,13 +98,32 @@ p {
   padding: 20px;
 }
 
-.ad-special {
-  background-color: #ffe0cc;
-  margin-bottom: 20px;
+.ad-valentine .ad-headline,.ad-stpatrick .ad-headline,.ad-easter .ad-headline {
+  float: none;
 }
 
-.ad-special .ad-headline {
+.ad-valentine {
+  background-color: #ffe0cc;
+}
+
+.ad-valentine .ad-headline {
   color: #662602;
+}
+
+.ad-stpatrick {
+  background-color: #999;
+}
+
+.ad-stpatrick .ad-headline {
+  color: #333;
+}
+
+.ad-easter {
+  background-color: #900;
+}
+
+.ad-easter .ad-headline {
+  color: #fff;
 }
 
 .ad-order {
@@ -133,6 +152,76 @@ p {
 .button-active,.button:hover {
   background-color: #900;
   color: #fff;
+}/* Tiny Carousel */.carousel {
+  height: 1%;
+  margin: 0 0 20px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.carousel h2 {
+  text-align: center;
+}
+
+.carousel .viewport {
+  height: 150px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+
+.carousel .buttons {
+  font-family: "Averia Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.8;
+  background: #662602;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  height: 32px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 40%;
+  width: 32px;
+}
+
+.carousel .prev {
+  left: 0;
+}
+
+.carousel .next {
+  right: 0;
+}
+
+.carousel .buttons:hover {
+  background: #900;
+  color: #fff;
+}
+
+.carousel .disable {
+  visibility: hidden;
+}
+
+.carousel .overview {
+  list-style: none;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  width: 305px;
+}
+
+.carousel .overview li {
+  float: left;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 305px;
 }
 
 .beef-doneness {
@@ -498,14 +587,6 @@ p {
     clear: none;
     float: left;
     padding: 8px 10px;
-  }
-
-  .ad-special .ad-headline {
-    width: 44%;
-  }
-
-  .ad-special img {
-    float: left;
   }
 
   .ad-order .ad-headline {

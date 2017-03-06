@@ -21,19 +21,27 @@
             padding: 8px 10px;
         }
     }
-    &-special {
+    &-valentine, &-stpatrick, &-easter {
+        .ad-headline {
+            float: none;
+        }
+    }
+    &-valentine {
         background-color: $color-cream;
-        margin-bottom: 20px;
         .ad-headline {
             color: $color-maroon;
-            @include breakpoint($large) {
-                width: 44%;
-            }
         }
-        img {
-            @include breakpoint($large) {
-                float: left;
-            }
+    }
+    &-stpatrick {
+        background-color: $color-gray;
+        .ad-headline {
+            color: $color-charcoal;
+        }
+    }
+    &-easter {
+        background-color: $color-red;
+        .ad-headline {
+            color: $color-white;
         }
     }
     &-order {
