@@ -46,7 +46,7 @@ var paths = {
         images: 'images/*.{png,jpg,jpeg,gif,svg}',
         js: [
             'bower_components/jquery/dist/jquery.js',
-            'js/functions.js'
+            'js/concat/forms.js'
         ],
         sass: 'sass/**/*.scss',
         svg: 'images/*.svg'
