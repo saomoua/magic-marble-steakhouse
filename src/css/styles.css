@@ -253,6 +253,7 @@ p {
 #contact-success {
   background: #ffe0cc;
   display: none;
+  margin: 20px 0;
   padding: 20px;
 }
 
