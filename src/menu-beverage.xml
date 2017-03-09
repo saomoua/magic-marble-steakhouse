@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <beverage>
+        <name>Heineken Bottle</name>
+        <description>Heineken lager bottles 12oz. (Netherlands)</description>
+        <price>$4.99</price>
+    </beverage>
+    <beverage>
+        <name>Corona Bottle</name>
+        <description>Corona lager bottles 12oz.  (Mexico)</description>
+        <price>$4.99</price>
+    </beverage>
+    <beverage>
+        <name>Bloody Mary</name>
+        <description>Classic Bloody Mary made with Premium Vodka.</description>
+        <price>$8.50</price>
+    </beverage>
+</menu>
