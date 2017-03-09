@@ -57,11 +57,7 @@
         <h2>Grand Opening</h2>
         <p>We are <strong>Magic Marble Steakhouse</strong>, and we are excited to bring our passion for <strong>great steaks to all ages</strong> in the Twin Cities.</p>
         <p>All steak lovers, come celebrate with us as we open our restaurant this Valentine’s Day! Find us with your favorite map app at:</p>
-        <p>
-            <a href="#">123 Main St
-                <br>Saint Paul, MN 55105</a>
-            <br> (651) 123-4567
-        </p>
+        <div class="address-info"></div>
     </section>
     </div>
     <div class="col-6-last">
@@ -157,5 +153,24 @@
 <script src="js/jquery.tinycarousel.min.js"></script>
 <script src="js/forms.js"></script>
 <script src="js/carousel.js"></script>
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "address.xml",
+            dataType: "xml",
+            success: function(xml) {
+                $(xml).find('location').each(function() {
+                    var street = $(this).find('street').text();
+                    var city = $(this).find('city').text();
+                    var state = $(this).find('state').text();
+                    var zip = $(this).find('zip').text();
+                    var phone = $(this).find('phone').text();
+                    $('<p></p>').html('<a href="#">' + street + '<br>' + city + ', ' + state + ' ' + zip + '</a><br>' + phone + '').appendTo('.address-info');
+                });
+            }
+        });
+    });
+</script>
 </body>
 </html>

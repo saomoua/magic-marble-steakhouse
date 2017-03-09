@@ -16,5 +16,24 @@
 <script src="js/jquery.tinycarousel.min.js"></script>
 <script src="js/forms.js"></script>
 <script src="js/carousel.js"></script>
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "address.xml",
+            dataType: "xml",
+            success: function(xml) {
+                $(xml).find('location').each(function() {
+                    var street = $(this).find('street').text();
+                    var city = $(this).find('city').text();
+                    var state = $(this).find('state').text();
+                    var zip = $(this).find('zip').text();
+                    var phone = $(this).find('phone').text();
+                    $('<p></p>').html('<a href="#">' + street + '<br>' + city + ', ' + state + ' ' + zip + '</a><br>' + phone + '').appendTo('.address-info');
+                });
+            }
+        });
+    });
+</script>
 </body>
 </html>
