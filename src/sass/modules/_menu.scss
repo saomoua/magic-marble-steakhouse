@@ -2,19 +2,18 @@
     display: block;
     overflow: hidden;
     &-list {
+        @include font-body;
         display: block;
         list-style: none;
         overflow: hidden;
         margin: 0;
     }
     &-item-with-photo {
-        border: 1px solid red;
         display: block;
         margin-bottom: 30px;
         overflow: hidden;
     }
     &-item-no-photo {
-        border: 1px solid blue;
         clear: both;
         display: block;
         overflow: hidden;
