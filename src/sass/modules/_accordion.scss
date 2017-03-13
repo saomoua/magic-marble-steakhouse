@@ -3,11 +3,28 @@
         padding: 10px 20px !important;
     }
     &-header {
+        font-size: 24px !important;
         span {
             display: none;
         }
     }
+    .ui-accordion-header-collapsed {
+        background-color: $color-cream;
+        border: 1px solid $color-cream;
+    }
+    .ui-accordion-header-active {
+        background-color: $color-maroon;
+        border: 1px solid $color-maroon;
+    }
+    .ui-accordion-header {
+        &:hover {
+            background-color: $color-red;
+            border: 1px solid $color-red;
+            color: $color-white;
+        }
+    }
     &-content {
+        border: 1px solid darken($color-white, 25%);
         padding: 20px !important;
     }
 }

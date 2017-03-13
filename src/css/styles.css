@@ -83,11 +83,32 @@ p {
   padding: 10px 20px !important;
 }
 
+.accordion-header {
+  font-size: 24px !important;
+}
+
 .accordion-header span {
   display: none;
 }
 
+.accordion .ui-accordion-header-collapsed {
+  background-color: #ffe0cc;
+  border: 1px solid #ffe0cc;
+}
+
+.accordion .ui-accordion-header-active {
+  background-color: #662602;
+  border: 1px solid #662602;
+}
+
+.accordion .ui-accordion-header:hover {
+  background-color: #900;
+  border: 1px solid #900;
+  color: #fff;
+}
+
 .accordion-content {
+  border: 1px solid #bfbfbf;
   padding: 20px !important;
 }
 
@@ -391,10 +412,9 @@ p {
 }
 
 .menu-name {
-  width: 53.38983%;
+  width: 51.27119%;
   float: left;
   margin-right: 1.69492%;
-  float: left;
 }
 
 .menu-size {
@@ -404,7 +424,7 @@ p {
 }
 
 .menu-price {
-  width: 15.25424%;
+  width: 17.37288%;
   float: right;
   margin-right: 0;
 }
@@ -582,7 +602,6 @@ p {
   .col-6s-first {
     width: 47.88136%;
     float: left;
-    margin-right: 1.69492%;
     max-width: 360px;
   }
 
