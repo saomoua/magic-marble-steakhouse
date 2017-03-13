@@ -76,6 +76,18 @@
             max-width: 380px;
         }
     }
+    &s-first {
+        @include breakpoint($large) {
+            @include span(5.85 of 12);
+            max-width: 360px;
+        }
+    }
+    &s-last {
+        @include breakpoint($large) {
+            @include span(last 5.85 of 12);
+            max-width: 360px;
+        }
+    }
 }
 
 .col-7 {
