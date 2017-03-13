@@ -78,13 +78,13 @@
     }
     &s-first {
         @include breakpoint($large) {
-            @include span(5.85 of 12);
+            @include span(5.85 of 12 no-gutters);
             max-width: 360px;
         }
     }
     &s-last {
         @include breakpoint($large) {
-            @include span(last 5.85 of 12);
+            @include span(last 5.85 of 12 no-gutters);
             max-width: 360px;
         }
     }
