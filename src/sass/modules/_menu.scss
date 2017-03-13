@@ -1,6 +1,9 @@
 .menu {
     display: block;
     overflow: hidden;
+    h3 {
+        border-bottom: 1px solid darken($color-white, 25%);
+    }
     &-list {
         @include font-body;
         display: block;
@@ -18,11 +21,23 @@
         display: block;
         overflow: hidden;
     }
+    &-item-headers {
+        .menu-size, .menu-price {
+            @include font-body($font-body, $base-font-size, 700);
+        }
+    }
+    &-name, &-size, &-price {
+        display: inline-block;
+    }
     &-name {
+        @include span(6.5 of 12);
         float: left;
     }
+    &-size {
+        @include span(3.5 of 12);
+    }
     &-price {
-        float: right;
+        @include span(last 2 of 12);
     }
     &-fineprint {
         font-size: 14px;

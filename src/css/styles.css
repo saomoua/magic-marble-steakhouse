@@ -356,6 +356,10 @@ p {
   overflow: hidden;
 }
 
+.menu h3 {
+  border-bottom: 1px solid #bfbfbf;
+}
+
 .menu-list {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -377,12 +381,32 @@ p {
   overflow: hidden;
 }
 
+.menu-item-headers .menu-size,.menu-item-headers .menu-price {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.menu-name,.menu-size,.menu-price {
+  display: inline-block;
+}
+
 .menu-name {
+  width: 53.38983%;
+  float: left;
+  margin-right: 1.69492%;
   float: left;
 }
 
+.menu-size {
+  width: 27.9661%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
 .menu-price {
+  width: 15.25424%;
   float: right;
+  margin-right: 0;
 }
 
 .menu-fineprint {
