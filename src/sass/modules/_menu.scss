@@ -30,14 +30,13 @@
         display: inline-block;
     }
     &-name {
-        @include span(6.5 of 12);
-        float: left;
+        @include span(6.25 of 12);
     }
     &-size {
         @include span(3.5 of 12);
     }
     &-price {
-        @include span(last 2 of 12);
+        @include span(last 2.25 of 12);
     }
     &-fineprint {
         font-size: 14px;
