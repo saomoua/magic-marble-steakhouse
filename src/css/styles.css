@@ -68,6 +68,10 @@ p {
   overflow: hidden;
 }
 
+.push-bottom {
+  margin-bottom: 20px;
+}
+
 .col-12 {
   width: 100%;
   float: left;
@@ -340,9 +344,25 @@ p {
   overflow: hidden;
 }
 
+.menu-list {
+  display: block;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+}
+
 .menu-item-with-photo {
+  border: 1px solid red;
   display: block;
   margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.menu-item-no-photo {
+  border: 1px solid blue;
+  clear: both;
+  display: block;
+  overflow: hidden;
 }
 
 .menu-name {
