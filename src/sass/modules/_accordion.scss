@@ -1,0 +1,13 @@
+.accordion {
+    &-header, &-content {
+        padding: 10px 20px !important;
+    }
+    &-header {
+        span {
+            display: none;
+        }
+    }
+    &-content {
+        padding: 20px !important;
+    }
+}
