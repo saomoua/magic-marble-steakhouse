@@ -5,7 +5,9 @@
     &-header {
         font-size: 24px !important;
         span {
-            display: none;
+            position: absolute;
+            right: 10px;
+            top: 50%;
         }
     }
     .ui-accordion-header-collapsed {
@@ -26,5 +28,16 @@
     &-content {
         border: 1px solid darken($color-white, 25%);
         padding: 20px !important;
+    }
+    .ui-icon, .ui-widget-content .ui-icon {
+        background-image: url('../images/ui-icons_444444_256x240.png');
+    }
+    .ui-state-hover {
+        span {
+            background-image: url('../images/ui-icons_ffffff_256x240.png');
+        }
+    }
+    .ui-state-active .ui-icon, .ui-button:active .ui-icon {
+        background-image: url('../images/ui-icons_ffffff_256x240.png');
     }
 }
