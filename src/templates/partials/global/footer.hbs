@@ -28,7 +28,7 @@
     $(document).ready(function() {
         $.ajax({
             type: "GET",
-            url: "address.xml",
+            url: "data/address.xml",
             dataType: "xml",
             success: function(xml) {
                 $(xml).find('location').each(function() {
@@ -44,7 +44,7 @@
 
         $.ajax({
             type: "GET",
-            url: "quotes.xml",
+            url: "data/quotes.xml",
             dataType: "xml",
             success: function(xml) {
                 $(xml).find('testimony').each(function() {
