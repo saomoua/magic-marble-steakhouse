@@ -151,7 +151,20 @@
                     var state = $(this).find('state').text();
                     var zip = $(this).find('zip').text();
                     var phone = $(this).find('phone').text();
-                    $('<p></p>').html('<a href="#">' + street + '<br>' + city + ', ' + state + ' ' + zip + '</a><br>' + phone + '').appendTo('.address-info');
+                    $('<p></p>').html('<a href="#">' + street + '<br>' + city + ', ' + state + ' ' + zip + '</a><br>' + phone).appendTo('.address-info');
+                });
+            }
+        });
+        
+        $.ajax({
+            type: "GET",
+            url: "quotes.xml",
+            dataType: "xml",
+            success: function(xml) {
+                $(xml).find('testimony').each(function() {
+                    var name = $(this).find('name').text();
+                    var quote = $(this).find('quote').text();
+                    $('<p></p>').html(name + 'says,<br><span class="quote">' + quote + '</span>').appendTo('.customer-quotes');
                 });
             }
         });
