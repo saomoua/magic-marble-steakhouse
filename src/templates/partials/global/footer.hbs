@@ -14,8 +14,15 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.tinycarousel.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="js/forms.js"></script>
 <script src="js/carousel.js"></script>
+<script>
+    $(".accordion").accordion({
+        active: 1 // sets Steak as default opened accordion
+    });
+
+</script>
 <script>
     $(document).ready(function() {
         $.ajax({
@@ -33,7 +40,7 @@
                 });
             }
         });
-        
+
         $.ajax({
             type: "GET",
             url: "quotes.xml",
@@ -47,6 +54,8 @@
             }
         });
     });
+
 </script>
 </body>
+
 </html>
