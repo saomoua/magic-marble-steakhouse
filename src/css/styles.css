@@ -374,12 +374,17 @@ p {
 }
 
 .form-signup {
+  margin-bottom: 20px;
   position: relative;
 }
 
 .form-signup label {
   color: #fff;
   font-size: 14px;
+}
+
+.form-signup #signup-email {
+  padding: 4px;
 }
 
 .form-contact {
@@ -783,6 +788,10 @@ p {
   .form-signup #signup-email {
     float: right;
     width: 160px;
+  }
+
+  .form-signup .button {
+    padding: 6px 15px;
   }
 
   .form-contact label {

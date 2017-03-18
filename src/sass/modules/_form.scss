@@ -26,6 +26,7 @@
         border: 1px solid $color-red;
     }
     &-signup {
+        margin-bottom: 20px;
         position: relative;
         .form-group {
             @include breakpoint($large) {
@@ -44,9 +45,15 @@
             }
         }
         #signup-email {
+            padding: 4px;
             @include breakpoint($large) {
                 float: right;
                 width: 160px;
+            }
+        }
+        .button {
+            @include breakpoint($large) {
+                padding: 6px 15px;
             }
         }
     }
@@ -85,6 +92,7 @@
         margin-bottom: 20px;
     }
 }
+
 #contact-success {
     background: $color-cream;
     display: none;
