@@ -1,10 +1,27 @@
 .beef-doneness {
     display: block;
     overflow: hidden;
+    &-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        h3 {
+            margin: 0;
+        }
+    }
     &-degree {
-        height: 150px;
-        text-align: center;
-        vertical-align: text-bottom;
+        @include span(12 of 12);
+        display: block;
+    }
+    &-image {
+        float: left;
+        margin-right: 20px;
+    }
+    &-desc {
+        @include span(last 7.5 of 12);
+        p {
+            margin: 0;
+        }
     }
 }
 
