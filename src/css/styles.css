@@ -773,8 +773,13 @@ p {
     padding: 0 0 0 100px;
   }
 
+  .form-signup {
+    margin: 0;
+  }
+
   .form-signup .form-group {
     float: left;
+    margin-bottom: 10px;
     margin-right: 10px;
     width: 275px;
   }

@@ -28,9 +28,13 @@
     &-signup {
         margin-bottom: 20px;
         position: relative;
+        @include breakpoint($large) {
+            margin: 0;
+        }
         .form-group {
             @include breakpoint($large) {
                 float: left;
+                margin-bottom: 10px;
                 margin-right: 10px;
                 width: 275px;
             }
