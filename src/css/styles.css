@@ -278,6 +278,7 @@ p {
 .beef-doneness {
   display: block;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .beef-doneness-list {
@@ -287,6 +288,7 @@ p {
 }
 
 .beef-doneness-list h3 {
+  border-bottom: 1px solid #999;
   margin: 0;
 }
 
@@ -296,21 +298,15 @@ p {
   margin-left: 0;
   margin-right: 0;
   display: block;
-}
-
-.beef-doneness-image {
-  float: left;
-  margin-right: 20px;
-}
-
-.beef-doneness-desc {
-  width: 61.86441%;
-  float: right;
-  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .beef-doneness-desc p {
-  margin: 0;
+  margin: 2px 0 0 0;
+}
+
+.beef-doneness .fork {
+  display: none;
 }
 
 .beef-cuts img {
@@ -729,6 +725,35 @@ p {
 
   .button {
     padding: 10px 15px;
+  }
+
+  .beef-doneness-list h3 {
+    border-bottom: 0;
+    float: left;
+    margin: 0 5px 0 0;
+  }
+
+  .beef-doneness-degree {
+    margin: 0;
+  }
+
+  .beef-doneness-image {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .beef-doneness-desc {
+    width: 61.86441%;
+    float: right;
+    margin-right: 0;
+  }
+
+  .beef-doneness .desc-first {
+    padding-top: 40px;
+  }
+
+  .beef-doneness .fork {
+    display: block;
   }
 
   .footer-right {
