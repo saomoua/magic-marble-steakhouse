@@ -160,7 +160,7 @@
                 $(xml).find('testimony').each(function() {
                     var name = $(this).find('name').text();
                     var quote = $(this).find('quote').text();
-                    $('<p></p>').html(name + 'says,<br><span class="quote">' + quote + '</span>').appendTo('.customer-quotes');
+                    $('<p></p>').html(name + ' says,<br><span class="quote">"' + quote + '"</span>').appendTo('.customer-quotes');
                 });
             }
         });
