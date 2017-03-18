@@ -13,6 +13,14 @@ $("#form-contact").validate({
             minlength: 3
         }
     },
+    messages: {
+        contactName: "Please specify your full name.",
+        contactEmail: {
+            required: "We need your email address to contact you.",
+            email: "Your email address must be in the format of name@domain.com"
+        },
+        contactMessage: "Please share your thoughts with us."
+    },
 
     submitHandler: function (form) {
         form.submit();
